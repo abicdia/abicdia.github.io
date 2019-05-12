@@ -1935,7 +1935,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fe16ff;
+  background: #ff4aad;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3104,9 +3104,25 @@ img:hover {
   }
 }
 .post {
-  margin-top: 60px;
+  margin-top: 0px;
   margin-bottom: 60px;
   padding: 25px;
-  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  padding-top: 10px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,204,0.5);
   -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
+}
+.posts-expand .post-meta {
+  margin: 3px 0 20px 0;
+  color: #999;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 12px;
+  text-align: left;
+}
+.posts-expand .post-title {
+  text-align: left;
+  word-break: break-word;
+  font-weight: 400;
+}
+.posts-expand .post-eof {
+  display: none;
 }
